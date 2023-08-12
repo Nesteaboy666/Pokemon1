@@ -1,7 +1,7 @@
 Pokedex Web Application
 This is a simple web application that displays information about different Pokémon species. Users can search for Pokémon by their index number or name.
 
-Table of Contents
+Table of Contents:
 Description
 Features
 Usage
@@ -31,6 +31,5 @@ View the information displayed for the searched Pokémon, including its type, re
 References
 Pokemon Images Dataset
 Pokemon Pokedex Spreadsheet
-Author
-This Pokedex web application was developed by [Your Name]. If you have any questions or suggestions, feel free to contact me at [your.email@example.com].
+
 
