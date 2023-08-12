@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ECE 9065 Lab 1</title>
+<meta name="description" content="">
+<meta name="KE LI" content="">
+<link rel="stylesheet" href="pokemon.css">
+</head>
+<body>
+<!-- Place your content here -->
+<h1>POKEDEX</h1>
+
+<input type ="text" id ="myInputNum" onkeyup+"searchNumber()" placeholder =" Search by numbers" title "Type in a number">
+<button onclick = "searchNumber()">search</button>
+
+<input type ="text" id ="myInput" onkeyup+"searchName()" placeholder =" Search by names" title "Type in a name">
+<button onclick="searchName()">Search</button>
+
+<ul id="myPokemon"style="list-style-type:none;">
+  <img src="pokemon/1.png">
+  <li>001</li>
+  <li id="a">Bulbasaur</li>
+  <li>pokemon type:grass, poison</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 4</li>
+  <li>pokemon evolution: 1</li>
+
+  <img src="pokemon/2.png">
+  <li>002</li>
+  <li id="a">Ivysaur</li>
+  <li>pokemon type:grass, poison</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 5</li>
+  <li>pokemon evolution: 2</li>
+
+  <img src="pokemon/3.png">
+  <li>003</li>
+  <li id="a">Venusaur</li>
+  <li>pokemon type:grass, poison</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 6</li>
+  <li>pokemon evolution: 3</li>
+
+  <img src="pokemon/4.png">
+  <li>004</li>
+  <li id="a">Charmander</li>
+  <li>pokemon type:fire</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 4</li>
+  <li>pokemon evolution: 1</li>
+
+  <img src="pokemon/5.png">
+  <li>005</li>
+  <li id="a">Charmeleon</li>
+  <li>pokemon type:fire</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 5</li>
+  <li>pokemon evolution: 2</li>
+
+  <img src="pokemon/6.png">
+  <li>006</li>
+  <li id="a">Charizard</li>
+  <li>pokemon type:fire, fly</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 6</li>
+  <li>pokemon evolution: 3</li>
+
+  <img src="pokemon/7.png">
+  <li>007</li>
+  <li id="a">Squirtle</li>
+  <li>pokemon type:water</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 4</li>
+  <li>pokemon evolution: 1</li>
+
+  <img src="pokemon/8.png">
+  <li>008</li>
+  <li id="a">Wartortle</li>
+  <li>pokemon type:water</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 5</li>
+  <li>pokemon evolution: 2</li>
+
+  <img src="pokemon/9.png">
+  <li>009</li>
+  <li id="a">Blastoise</li>
+  <li>pokemon type:water</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 6</li>
+  <li>pokemon evolution: 3</li>
+
+  <img src="pokemon/10.png">
+  <li>010</li>
+  <li id="a">Caterpie</li>
+  <li>pokemon type:bug</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 1</li>
+  <li>pokemon evolution: 1</li>
+
+  <img src="pokemon/11.png">
+  <li>011</li>
+  <li id="a">Metapod</li>
+  <li>pokemon type:bug</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 3</li>
+  <li>pokemon evolution: 2</li>
+
+  <img src="pokemon/12.png">
+  <li>012</li>
+  <li id="a">Butterfree</li>
+  <li>pokemon type:bug, fly</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 4</li>
+  <li>pokemon evolution: 3</li>
+
+  <img src="pokemon/13.png">
+  <li>013</li>
+  <li id="a">Weedle</li>
+  <li>pokemon type:bug, poison</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 1</li>
+  <li>pokemon evolution: 1</li>
+
+  <img src="pokemon/14.png">
+  <li>014</li>
+  <li id="a">Kakuna</li>
+  <li>pokemon type:bug, poison</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 3</li>
+  <li>pokemon evolution: 2</li>
+
+  <img src="pokemon/15.png">
+  <li>015</li>
+  <li id="a">Beedrill</li>
+  <li>pokemon type:bug, poison</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 4</li>
+  <li>pokemon evolution: 3</li>
+
+  <img src="pokemon/16.png">
+  <li>016</li>
+  <li id="a">Pidgey</li>
+  <li>pokemon type:normal, fly</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 1</li>
+  <li>pokemon evolution: 1</li>
+
+  <img src="pokemon/17.png">
+  <li>017</li>
+  <li id="a">Pidgeotto</li>
+  <li>pokemon type:normal, fly</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 3</li>
+  <li>pokemon evolution: 2</li>
+
+  <img src="pokemon/18.png">
+  <li>018</li>
+ <li id="a">Pidgeot</li>
+  <li>pokemon type:normal, fly</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 4</li>
+  <li>pokemon evolution: 3</li>
+
+  <img src="pokemon/19.png">
+  <li>019</li>
+  <li id="a">Rattata</li>
+  <li>pokemon type:normal</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 1</li>
+  <li>pokemon evolution: 1</li>
+
+  <img src="pokemon/20.png">
+  <li>020</li>
+  <li id="a">Raticate</li>
+  <li>pokemon type:normal</li>
+  <li>pokemon region: global</li>
+  <li>pokemon rarity: 4</li>
+  <li>pokemon evolution: 2</li>
+</ul>
+<!-- Embedded JavaScript go here -->
+<script src="pokemon.js"></script
+</body>
+ 
+
+<h2> Reference</h2>
+<p>1. Pokemon data set from https://www.kaggle.com/kvpratama/pokemon-images-dataset </p>
+<p2>2.Pokemon excel from https://www.reddit.com/r/TheSilphRoad/comments/7p952h/pokemon_go_pokedex_spreadsheet/<p2>
+</html>
