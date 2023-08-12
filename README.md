@@ -29,7 +29,7 @@ Clone the repository to your local machine:
 bash
 
 Copy code
-git clone https://github.com/your-username/pokedex-web-app.git
+https://github.com/Nesteaboy666/Pokemon1.git
 Navigate to the project directory.
 
 Open the index.html file in a web browser to access the Pokedex web application.
